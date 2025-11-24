@@ -1,0 +1,1289 @@
+[INFO ] 2025-11-16 17:51:12.034 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 17:51:13.391 [AWT-EventQueue-0] Driver - Database connection successfully established.
+[INFO ] 2025-11-16 17:51:18.141 [AWT-EventQueue-0] Driver - Driver ID 8 password verified.
+[INFO ] 2025-11-16 17:51:19.010 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-16 19:40:06.897 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:40:08.532 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 19:40:16.914 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 19:40:18.099 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-16 19:40:30.772 [AWT-EventQueue-0] DriverDashboard - SQL Syntax Error during Assignment query: 1Unknown column 'a.driverID' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'a.driverID' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1311)
+	at driverModule.DriverDashboard.updateAssigned(DriverDashboard.java:387)
+	at driverModule.DriverDashboard$2.actionPerformed(DriverDashboard.java:222)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-16 19:44:22.906 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:44:28.190 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 19:44:41.982 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 19:44:43.643 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-16 19:45:21.654 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:45:23.053 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 19:45:28.910 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 19:45:29.551 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-16 19:45:34.490 [AWT-EventQueue-0] DriverDashboard - SQL Syntax Error during Assignment query: 1Unknown column 'a.driverID' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'a.driverID' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1311)
+	at driverModule.DriverDashboard.updateAssigned(DriverDashboard.java:387)
+	at driverModule.DriverDashboard$2.actionPerformed(DriverDashboard.java:222)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-16 19:46:12.053 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:46:13.401 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 19:46:23.368 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 19:46:24.513 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-16 19:46:29.057 [AWT-EventQueue-0] DriverDashboard - SQL Syntax Error during Assignment query: 1Unknown column 'a.assignmentID' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'a.assignmentID' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1311)
+	at driverModule.DriverDashboard.updateAssigned(DriverDashboard.java:387)
+	at driverModule.DriverDashboard$2.actionPerformed(DriverDashboard.java:222)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-16 19:47:40.073 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:47:41.319 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 19:47:47.090 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 19:47:48.589 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-16 19:47:53.609 [AWT-EventQueue-0] DriverDashboard - SQL Syntax Error during Assignment query: 1Unknown column 'a.driverID' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'a.driverID' in 'on clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1311)
+	at driverModule.DriverDashboard.updateAssigned(DriverDashboard.java:387)
+	at driverModule.DriverDashboard$2.actionPerformed(DriverDashboard.java:222)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-16 19:51:38.068 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:51:39.412 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 19:51:45.065 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 19:51:46.323 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-16 19:59:53.230 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 19:59:54.857 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 20:00:00.884 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 20:00:02.007 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-16 20:00:42.171 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 20:00:44.038 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-16 20:00:48.852 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 20:00:50.347 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-16 20:02:08.413 [AWT-EventQueue-0] Login - Database connection successfully established.
+[INFO ] 2025-11-16 20:02:13.718 [AWT-EventQueue-0] Login - Customer ID 3 password verified.
+[INFO ] 2025-11-16 20:02:16.155 [AWT-EventQueue-0] PackageTracking - Database connection successfully established.
+[INFO ] 2025-11-16 20:02:38.775 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-16 21:48:32.159 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 21:50:04.555 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-16 21:50:08.079 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-16 21:59:02.339 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 21:59:17.000 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-16 21:59:18.830 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-16 21:59:21.110 [AWT-EventQueue-0] PackageStatus - Database connection successfully established.
+[INFO ] 2025-11-16 22:01:10.322 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-16 22:02:10.612 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-16 22:02:12.303 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-16 22:06:01.956 [AWT-EventQueue-0] PackageStatus - Database connection successfully established.
+[INFO ] 2025-11-17 10:43:19.402 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 10:43:25.359 [AWT-EventQueue-0] Login - Database connection successfully established.
+[INFO ] 2025-11-17 10:43:34.369 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-17 10:43:53.241 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-17 10:43:54.618 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-17 10:47:01.400 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 10:47:05.529 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-17 10:47:19.972 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-17 10:47:21.250 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-17 11:43:29.531 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 11:52:09.887 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 11:52:59.644 [AWT-EventQueue-0] CreateAccount - Database connection successfully established.
+[INFO ] 2025-11-17 13:07:13.964 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:07:15.670 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:09:25.171 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:09:26.582 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:12:17.447 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:12:19.318 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:12:39.925 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:12:41.301 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:15:16.700 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:15:18.512 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:15:57.692 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:16:01.221 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:16:17.743 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:16:18.858 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:25:59.586 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:26:01.026 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:26:35.172 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:26:36.127 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:26:52.212 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:26:53.502 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:27:26.981 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:27:29.003 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:27:48.530 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:27:53.526 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:29:18.462 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:29:19.251 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:31:25.296 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:31:26.818 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:31:39.776 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:31:40.885 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:32:45.497 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:32:46.517 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:32:59.687 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:33:00.978 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:34:16.203 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:34:17.372 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:34:35.197 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:34:36.181 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 13:37:52.361 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:37:53.768 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-17 13:38:11.666 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-17 13:38:21.256 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-17 13:45:34.709 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:46:16.189 [AWT-EventQueue-0] Login - Database connection successfully established.
+[INFO ] 2025-11-17 13:46:21.964 [AWT-EventQueue-0] Login - Customer ID 1 password verified.
+[INFO ] 2025-11-17 13:46:27.131 [AWT-EventQueue-0] RequestShipment - Database connection successfully established.
+[INFO ] 2025-11-17 13:46:39.898 [AWT-EventQueue-0] PackageTracking - Database connection successfully established.
+[INFO ] 2025-11-17 13:47:06.011 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-17 13:47:12.159 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-17 13:47:13.336 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[INFO ] 2025-11-17 13:50:53.288 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 13:50:54.689 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 14:20:50.546 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 14:20:52.564 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 14:27:57.679 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 14:27:58.842 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 14:30:12.804 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 14:30:14.322 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 14:30:54.782 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 14:30:55.849 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 14:33:14.223 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 14:33:15.658 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-17 14:33:53.469 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-17 14:33:54.463 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[FATAL] 2025-11-19 21:31:27.127 [AWT-EventQueue-0] MainMenu - ERROR: Failed to connect to the database.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:839)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:415)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at gui.MainMenu.getDatabaseConn(MainMenu.java:140)
+	at gui.MainMenu.<init>(MainMenu.java:61)
+	at gui.MainMenu$1.run(MainMenu.java:48)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:963)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 24 more
+[INFO ] 2025-11-19 21:32:47.841 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 21:32:49.111 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:33:05.190 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:34:39.109 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 21:34:40.023 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:34:52.353 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:42:46.420 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 21:42:49.380 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:42:58.552 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:43:01.349 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[FATAL] 2025-11-19 21:45:49.719 [AWT-EventQueue-0] MainMenu - ERROR: Failed to connect to the database.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:165)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:55)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:839)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:415)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:237)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:180)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:683)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:230)
+	at gui.MainMenu.getDatabaseConn(MainMenu.java:140)
+	at gui.MainMenu.<init>(MainMenu.java:61)
+	at gui.MainMenu$1.run(MainMenu.java:48)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:52)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:95)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:140)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:156)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:79)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:142)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:963)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:827)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:144)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:53)
+	... 24 more
+[INFO ] 2025-11-19 21:46:10.796 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 21:46:12.075 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:46:24.259 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:46:26.234 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:54:10.777 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 21:54:12.028 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:54:22.593 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 21:54:24.773 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 22:00:58.786 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 22:01:00.028 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 22:01:12.272 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 22:01:14.492 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 22:01:30.229 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-19 22:01:31.642 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-19 22:01:39.084 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:23:22.446 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:23:24.957 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:24:37.429 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:24:39.075 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:26:59.542 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:27:00.968 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:31:22.139 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:31:23.362 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:32:00.248 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:32:02.289 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:32:09.403 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:32:10.792 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:32:58.483 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:33:02.499 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:33:08.411 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:33:09.871 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:33:20.642 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:36:41.483 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 17:38:59.835 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:39:01.246 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:39:08.106 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:39:09.671 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:39:12.190 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 17:39:21.690 [AWT-EventQueue-0] CustomerForm - Database connection successfully established.
+[INFO ] 2025-11-22 17:48:31.842 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:48:33.271 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:48:41.742 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:48:42.866 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:48:45.648 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 17:48:47.375 [AWT-EventQueue-0] CustomerForm - Database connection successfully established.
+[ERROR] 2025-11-22 17:54:55.606 [AWT-EventQueue-0] CustomerForm - Database error creating User account for: hbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+com.mysql.cj.jdbc.exceptions.MysqlDataTruncation: Data truncation: Data too long for column 'firstName' at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:96)
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1499)
+	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2326)
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1374)
+	at managerModule.CustomerForm.createCus(CustomerForm.java:237)
+	at managerModule.CustomerForm$2.actionPerformed(CustomerForm.java:188)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-22 17:55:23.209 [AWT-EventQueue-0] StaffForm - Database connection successfully established.
+[INFO ] 2025-11-22 17:56:11.015 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:56:12.271 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:56:18.636 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:56:19.768 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:56:21.579 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 17:56:22.906 [AWT-EventQueue-0] StaffForm - Database connection successfully established.
+[INFO ] 2025-11-22 17:58:10.369 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:58:11.685 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:58:18.670 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 17:58:19.894 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 17:58:21.790 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 17:58:23.085 [AWT-EventQueue-0] StaffForm - Database connection successfully established.
+[INFO ] 2025-11-22 17:59:56.076 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 17:59:59.050 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:00:05.582 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 18:00:07.379 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:00:10.882 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 18:00:13.248 [AWT-EventQueue-0] StaffForm - Database connection successfully established.
+[ERROR] 2025-11-22 18:03:45.639 [AWT-EventQueue-0] StaffForm - Invalid Customer ID entered: fifty
+[ERROR] 2025-11-22 18:03:53.754 [AWT-EventQueue-0] StaffForm - Invalid Customer ID entered: 
+[ERROR] 2025-11-22 18:04:00.942 [AWT-EventQueue-0] StaffForm - Invalid Customer ID entered: 
+[INFO ] 2025-11-22 18:08:01.698 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 18:08:03.400 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:08:09.841 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 18:08:13.107 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:08:20.993 [AWT-EventQueue-0] CreateAccView - Database connection successfully established.
+[INFO ] 2025-11-22 18:09:25.802 [AWT-EventQueue-0] StaffForm - Database connection successfully established.
+[ERROR] 2025-11-22 18:10:09.911 [AWT-EventQueue-0] StaffForm - Invalid Customer ID entered: -50000
+[ERROR] 2025-11-22 18:10:29.922 [AWT-EventQueue-0] StaffForm - Invalid Customer ID entered: 1863
+[INFO ] 2025-11-22 18:14:26.546 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 18:14:30.761 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:14:39.273 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 18:14:41.252 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:17:02.472 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 18:17:03.829 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:17:11.539 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 18:17:12.669 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:17:22.450 [AWT-EventQueue-0] UpdateStaff - Database connection successfully established.
+[INFO ] 2025-11-22 18:28:50.878 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 18:28:52.810 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:28:59.497 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 18:29:00.558 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 18:29:11.517 [AWT-EventQueue-0] UpdateStaff - Database connection successfully established.
+[WARN ] 2025-11-22 18:30:08.286 [AWT-EventQueue-0] UpdateStaff - Both tables weren't updated
+[ERROR] 2025-11-22 18:33:04.029 [AWT-EventQueue-0] UpdateStaff - Invalid number format in Update Staff form.
+java.lang.NumberFormatException
+	at managerModule.UpdateStaff$1.actionPerformed(UpdateStaff.java:144)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[ERROR] 2025-11-22 18:33:12.637 [AWT-EventQueue-0] UpdateStaff - Invalid number format in Update Staff form.
+java.lang.NumberFormatException
+	at managerModule.UpdateStaff$1.actionPerformed(UpdateStaff.java:144)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[WARN ] 2025-11-22 18:33:27.987 [AWT-EventQueue-0] UpdateStaff - Both tables weren't updated
+[INFO ] 2025-11-22 18:38:03.062 [AWT-EventQueue-0] UpdateCust - Database connection successfully established.
+[INFO ] 2025-11-22 18:44:03.925 [AWT-EventQueue-0] AddVehicle - Database connection successfully established.
+[INFO ] 2025-11-22 18:44:29.076 [AWT-EventQueue-0] AddVehicle - Vehicle added with plate number 9999
+[ERROR] 2025-11-22 18:48:20.832 [AWT-EventQueue-0] AddVehicle - Duplicate Plate Number entered: Duplicate entry 'ABC2004' for key 'PRIMARY'
+[ERROR] 2025-11-22 18:48:38.617 [AWT-EventQueue-0] AddVehicle - Invalid number format for vehicle weight or quantity capacity: For input string: "u"
+[ERROR] 2025-11-22 18:48:43.711 [AWT-EventQueue-0] AddVehicle - Invalid number format for vehicle weight or quantity capacity: Negative or Zero value
+[ERROR] 2025-11-22 18:48:56.248 [AWT-EventQueue-0] AddVehicle - Invalid number format for vehicle weight or quantity capacity: For input string: "h"
+[ERROR] 2025-11-22 18:49:01.951 [AWT-EventQueue-0] AddVehicle - Invalid number format for vehicle weight or quantity capacity: Negative or Zero value
+[ERROR] 2025-11-22 18:49:12.607 [AWT-EventQueue-0] AddVehicle - Invalid number format for vehicle weight or quantity capacity: For input string: "500Kg"
+[INFO ] 2025-11-22 19:59:38.884 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 19:59:40.236 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 19:59:47.172 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 19:59:48.255 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 19:59:57.618 [AWT-EventQueue-0] AccDelete - Database connection successfully established.
+[WARN ] 2025-11-22 20:01:17.778 [AWT-EventQueue-0] AccDelete - Attempted to delete customer 100 with active shipments.
+[ERROR] 2025-11-22 20:01:29.948 [AWT-EventQueue-0] AccDelete - Error deleting user: 101
+java.sql.SQLSyntaxErrorException: Unknown column 'customerID' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084)
+	at managerModule.AccDelete.delete(AccDelete.java:233)
+	at managerModule.AccDelete$1.actionPerformed(AccDelete.java:102)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-22 20:09:35.180 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 20:09:36.858 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 20:09:44.751 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 20:09:49.262 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 20:09:51.592 [AWT-EventQueue-0] AccDelete - Database connection successfully established.
+[ERROR] 2025-11-22 20:10:32.814 [AWT-EventQueue-0] AccDelete - Error deleting user: 101
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`smartship`.`shipment`, CONSTRAINT `shipFK` FOREIGN KEY (`custID`) REFERENCES `customer` (`custID`) ON UPDATE CASCADE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:109)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:988)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1166)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1101)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1448)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1084)
+	at managerModule.AccDelete.delete(AccDelete.java:241)
+	at managerModule.AccDelete$1.actionPerformed(AccDelete.java:102)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[INFO ] 2025-11-22 20:29:33.463 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 20:29:34.824 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 20:29:41.476 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 20:32:38.707 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 20:32:41.138 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 20:33:52.485 [AWT-EventQueue-0] ManagerFrame - Account with userID 777 deleted successfully.
+[INFO ] 2025-11-22 20:34:44.072 [AWT-EventQueue-0] ManagerFrame - Account with userID 201 deleted successfully.
+[INFO ] 2025-11-22 20:34:52.159 [AWT-EventQueue-0] ManagerFrame - Account with userID 888 deleted successfully.
+[INFO ] 2025-11-22 21:07:42.824 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 21:07:44.436 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 21:07:53.276 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 21:07:56.009 [AWT-EventQueue-0] CreateAccount - Database connection successfully established.
+[INFO ] 2025-11-22 21:08:25.001 [AWT-EventQueue-0] CreateAccount - Customer Account created. Affected rows: 2
+[INFO ] 2025-11-22 21:08:28.711 [AWT-EventQueue-0] Login - Database connection successfully established.
+[INFO ] 2025-11-22 21:08:34.770 [AWT-EventQueue-0] Login - Customer ID 1000 password verified.
+[INFO ] 2025-11-22 21:08:41.562 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 21:09:29.248 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 21:09:30.688 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:22:19.838 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:22:21.384 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:22:27.881 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:22:29.269 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:46:07.301 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:46:08.292 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:46:14.723 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:46:17.695 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:46:46.352 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:48:20.271 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:48:24.640 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:48:30.597 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:48:31.789 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:50:30.114 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:50:31.344 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:50:38.293 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:50:39.386 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:50:53.974 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:50:55.794 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:51:02.110 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:51:03.304 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:51:21.233 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:52:26.428 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:52:27.897 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:52:36.266 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:52:37.302 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:52:44.690 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:53:09.756 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:53:11.164 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:53:18.114 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:53:19.138 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:53:21.574 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:55:32.783 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-22 23:55:34.164 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:55:40.661 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-22 23:55:41.639 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-22 23:55:44.224 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:07:56.011 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:07:59.861 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-23 00:08:17.863 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-23 00:08:18.717 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-23 00:08:31.810 [AWT-EventQueue-0] DriverDashboard - Assignment Update Failed
+[ERROR] 2025-11-23 00:08:46.021 [AWT-EventQueue-0] DriverDashboard - Assignment Update Succeeded
+[ERROR] 2025-11-23 00:08:52.957 [AWT-EventQueue-0] DriverDashboard - Assignment Update Failed
+[INFO ] 2025-11-23 00:10:30.189 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:10:31.660 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-23 00:10:37.507 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-23 00:10:38.365 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-23 00:10:44.726 [AWT-EventQueue-0] DriverDashboard - Assignment Update Succeeded
+[ERROR] 2025-11-23 00:10:50.681 [AWT-EventQueue-0] DriverDashboard - Assignment Update Failed
+[INFO ] 2025-11-23 00:14:59.120 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:15:00.219 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-23 00:15:05.268 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-23 00:15:06.336 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-23 00:15:13.695 [AWT-EventQueue-0] DriverDashboard - Assignment Update Succeeded
+[INFO ] 2025-11-23 00:22:24.214 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:22:25.394 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-23 00:22:38.510 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-23 00:22:39.367 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-23 00:22:57.924 [AWT-EventQueue-0] DriverDashboard - SQL Syntax Error during vehicle update: 
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''CAD9999' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114)
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdateInternal(StatementImpl.java:1499)
+	at com.mysql.cj.jdbc.StatementImpl.executeLargeUpdate(StatementImpl.java:2321)
+	at com.mysql.cj.jdbc.StatementImpl.executeUpdate(StatementImpl.java:1369)
+	at driverModule.DriverDashboard.updateAssigned(DriverDashboard.java:454)
+	at driverModule.DriverDashboard$2.actionPerformed(DriverDashboard.java:219)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[ERROR] 2025-11-23 00:23:01.476 [AWT-EventQueue-0] DriverDashboard - Assignment Update Failed
+[INFO ] 2025-11-23 00:25:50.969 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:25:52.786 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-23 00:25:58.992 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-23 00:26:00.064 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-23 00:26:20.532 [AWT-EventQueue-0] DriverDashboard - Assignment Update Succeeded
+[INFO ] 2025-11-23 00:29:49.817 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:30:12.946 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 00:30:13.918 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 00:32:06.490 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 00:32:14.471 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 01:14:22.590 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:14:26.884 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:14:33.926 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 01:14:34.995 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:15:01.714 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 01:21:53.900 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:21:55.533 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:22:04.320 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 01:22:05.259 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:33:54.697 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:33:56.646 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:34:03.614 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 01:34:05.011 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:34:20.114 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 01:40:02.509 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:40:02.633 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:40:11.568 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:40:14.119 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:40:33.607 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 01:40:35.169 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:40:42.922 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 01:44:06.053 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:44:07.915 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:44:13.998 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 01:44:14.998 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:44:21.260 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 01:50:31.374 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 01:50:40.166 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:50:45.831 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 01:50:46.810 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 01:50:52.593 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 13:33:03.976 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 13:33:06.687 [AWT-EventQueue-0] Login - Database connection successfully established.
+[INFO ] 2025-11-23 13:33:11.631 [AWT-EventQueue-0] Login - Customer ID 1 password verified.
+[INFO ] 2025-11-23 13:33:14.989 [AWT-EventQueue-0] PackageTracking - Database connection successfully established.
+[INFO ] 2025-11-23 14:03:27.394 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 14:03:29.086 [AWT-EventQueue-0] DriverLogin - Database connection successfully established.
+[INFO ] 2025-11-23 14:03:35.488 [AWT-EventQueue-0] DriverLogin - Driver ID 8 password verified.
+[INFO ] 2025-11-23 14:03:36.505 [AWT-EventQueue-0] DriverDashboard - Database connection successfully established.
+[ERROR] 2025-11-23 14:04:52.215 [AWT-EventQueue-0] DriverDashboard - Assignment Update Failed
+[INFO ] 2025-11-23 14:56:36.292 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 14:56:37.844 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 14:56:48.525 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 14:56:49.542 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 14:56:55.359 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 17:28:53.609 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 17:28:58.684 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 17:28:58.687 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 17:28:58.693 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 17:29:09.257 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 17:29:09.259 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 17:29:09.260 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 17:29:09.314 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 17:29:09.315 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 17:29:09.315 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 17:29:10.161 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 17:29:28.049 [AWT-EventQueue-0] ProcessInvoice - Attempting to establish database connection.
+[INFO ] 2025-11-23 17:29:28.054 [AWT-EventQueue-0] ProcessInvoice - Database connection successfully established.
+[DEBUG] 2025-11-23 17:29:28.090 [AWT-EventQueue-0] ProcessInvoice - Loading unpaid/partially paid Invoice IDs.
+[INFO ] 2025-11-23 17:29:28.094 [AWT-EventQueue-0] ProcessInvoice - Loaded eligible Invoice IDs into dropdown.
+[DEBUG] 2025-11-23 17:29:39.198 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 1
+[INFO ] 2025-11-23 17:29:39.198 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 1
+[INFO ] 2025-11-23 17:29:39.239 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 details loaded. Current Balance: $460000.00
+[DEBUG] 2025-11-23 17:29:52.894 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 2
+[INFO ] 2025-11-23 17:29:52.894 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 2
+[INFO ] 2025-11-23 17:29:52.901 [AWT-EventQueue-0] ProcessInvoice - Invoice 2 details loaded. Current Balance: $19350.00
+[DEBUG] 2025-11-23 17:30:23.015 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 3
+[INFO ] 2025-11-23 17:30:23.016 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 3
+[INFO ] 2025-11-23 17:30:23.023 [AWT-EventQueue-0] ProcessInvoice - Invoice 3 details loaded. Current Balance: $20700.00
+[DEBUG] 2025-11-23 17:30:36.446 [AWT-EventQueue-0] ProcessInvoice - Submit button clicked.
+[INFO ] 2025-11-23 17:30:36.446 [AWT-EventQueue-0] ProcessInvoice - Processing payment of $700.0 for Invoice ID 3
+[INFO ] 2025-11-23 17:30:36.459 [AWT-EventQueue-0] ProcessInvoice - Invoice 3 status updated.
+[INFO ] 2025-11-23 17:30:36.460 [AWT-EventQueue-0] ProcessInvoice - Invoice 3 partially paid. Remaining balance: $20000.00
+[DEBUG] 2025-11-23 17:34:41.218 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 3
+[INFO ] 2025-11-23 17:34:41.220 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 3
+[INFO ] 2025-11-23 17:34:41.223 [AWT-EventQueue-0] ProcessInvoice - Invoice 3 details loaded. Current Balance: $20000.00
+[INFO ] 2025-11-23 17:35:09.494 [AWT-EventQueue-0] ProcessInvoice - Back button clicked. Returning to ProcessShipmentMenu.
+[DEBUG] 2025-11-23 17:35:12.307 [AWT-EventQueue-0] ProcessInvoice - Loading unpaid/partially paid Invoice IDs.
+[INFO ] 2025-11-23 17:35:12.309 [AWT-EventQueue-0] ProcessInvoice - Loaded eligible Invoice IDs into dropdown.
+[DEBUG] 2025-11-23 17:35:25.047 [AWT-EventQueue-0] ProcessInvoice - Submit button clicked.
+[WARN ] 2025-11-23 17:35:25.047 [AWT-EventQueue-0] ProcessInvoice - Submit failed: No invoice retrieved.
+[INFO ] 2025-11-23 17:42:04.054 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 17:42:07.002 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 17:42:07.005 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 17:42:07.014 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 17:42:13.239 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 17:42:13.239 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 17:42:13.240 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 17:42:13.284 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[WARN ] 2025-11-23 17:42:13.285 [AWT-EventQueue-0] Login - Login failed for Clerk ID: 6. Invalid credentials.
+[DEBUG] 2025-11-23 17:42:19.622 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 17:42:19.622 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 17:42:19.622 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 17:42:19.624 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 17:42:19.624 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 17:42:19.624 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 17:42:20.646 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 17:42:22.740 [AWT-EventQueue-0] PackageStatus - Database connection successfully established.
+[INFO ] 2025-11-23 17:42:22.766 [AWT-EventQueue-0] PackageStatus - Successfully retrieved package records.
+[INFO ] 2025-11-23 17:42:22.770 [AWT-EventQueue-0] PackageStatus - Displaying 4 packages in the list view.
+[INFO ] 2025-11-23 17:42:26.152 [AWT-EventQueue-0] PackageStatus - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 17:42:28.429 [AWT-EventQueue-0] ProcessInvoice - Attempting to establish database connection.
+[INFO ] 2025-11-23 17:42:28.434 [AWT-EventQueue-0] ProcessInvoice - Database connection successfully established.
+[DEBUG] 2025-11-23 17:42:28.436 [AWT-EventQueue-0] ProcessInvoice - Loading unpaid/partially paid Invoice IDs.
+[INFO ] 2025-11-23 17:42:28.441 [AWT-EventQueue-0] ProcessInvoice - Loaded eligible Invoice IDs into dropdown.
+[DEBUG] 2025-11-23 17:42:34.104 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 1
+[INFO ] 2025-11-23 17:42:34.105 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 1
+[INFO ] 2025-11-23 17:42:34.139 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 details loaded. Current Balance: $460000.00
+[DEBUG] 2025-11-23 17:42:52.752 [AWT-EventQueue-0] ProcessInvoice - Submit & Assign button clicked.
+[INFO ] 2025-11-23 17:42:52.752 [AWT-EventQueue-0] ProcessInvoice - Processing payment of $60000.0 for Invoice ID 1 before creating assignment.
+[INFO ] 2025-11-23 17:42:52.758 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 status updated.
+[INFO ] 2025-11-23 17:42:52.759 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 partially paid. Remaining balance: $400000.00
+[WARN ] 2025-11-23 17:42:58.476 [AWT-EventQueue-0] ProcessInvoice - Assignment blocked: Invoice 1 remains partially paid. New balance: $400000.0
+[DEBUG] 2025-11-23 17:43:18.191 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 1
+[INFO ] 2025-11-23 17:43:18.195 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 1
+[INFO ] 2025-11-23 17:43:18.200 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 details loaded. Current Balance: $400000.00
+[DEBUG] 2025-11-23 17:43:34.095 [AWT-EventQueue-0] ProcessInvoice - Submit button clicked.
+[INFO ] 2025-11-23 17:43:34.095 [AWT-EventQueue-0] ProcessInvoice - Processing payment of $10000.0 for Invoice ID 1
+[INFO ] 2025-11-23 17:43:34.098 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 status updated.
+[INFO ] 2025-11-23 17:43:34.098 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 partially paid. Remaining balance: $390000.00
+[INFO ] 2025-11-23 18:49:52.415 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 18:49:59.323 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 18:49:59.326 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 18:49:59.333 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 18:50:05.875 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 18:50:05.878 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 18:50:05.878 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 18:50:05.939 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 18:50:05.940 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 18:50:05.940 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 18:50:08.846 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 18:50:20.430 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 18:50:20.434 [AWT-EventQueue-0] CreateAssignment - Database connection successfully established.
+[DEBUG] 2025-11-23 18:50:34.623 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 18:50:34.624 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 1
+[DEBUG] 2025-11-23 18:50:34.625 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 1;
+[INFO ] 2025-11-23 18:50:34.628 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=1, Zone=4, Weight=50.0, Status=Pending
+[INFO ] 2025-11-23 18:50:34.628 [AWT-EventQueue-0] CreateAssignment - Shipment 1 is PENDING. Loading vehicles for zone 4 and weight 50.0
+[DEBUG] 2025-11-23 18:50:34.628 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 4 and min weight 50.0
+[DEBUG] 2025-11-23 18:50:34.639 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 50.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 4)GROUP BY v.plateNumber
+[DEBUG] 2025-11-23 18:51:28.255 [AWT-EventQueue-0] CreateAssignment - Check Vehicle button clicked.
+[DEBUG] 2025-11-23 18:51:28.257 [AWT-EventQueue-0] CreateAssignment - Starting vehicleCheck().
+[INFO ] 2025-11-23 18:51:28.258 [AWT-EventQueue-0] CreateAssignment - Checking driver assignment for vehicle: ABC2004
+[DEBUG] 2025-11-23 18:51:28.258 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 18:51:28.261 [AWT-EventQueue-0] CreateAssignment - No active driver found for vehicle: ABC2004
+[INFO ] 2025-11-23 18:51:28.261 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 has no active driver assignment. Loading available drivers.
+[DEBUG] 2025-11-23 18:51:28.263 [AWT-EventQueue-0] CreateAssignment - Loading available drivers.
+[DEBUG] 2025-11-23 18:51:28.263 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadDrivers: SELECT d.driverID FROM smartship.driver d LEFT JOIN smartship.assignment a ON d.driverID = a.driverID      AND a.endDate IS NULL WHERE a.assignmentID IS NULL;
+[INFO ] 2025-11-23 18:51:40.640 [AWT-EventQueue-0] CreateAssignment - Submit button clicked. Starting assignment creation process.
+[ERROR] 2025-11-23 18:51:40.640 [AWT-EventQueue-0] CreateAssignment - Submit validation failed: Tracking number is not numeric: 
+java.lang.NumberFormatException: For input string: ""
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:672)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at clerkModule.CreateAssignment$4.actionPerformed(CreateAssignment.java:239)
+	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972)
+	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2314)
+	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:407)
+	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+	at java.desktop/javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279)
+	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6621)
+	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575)
+	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2780)
+	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+[DEBUG] 2025-11-23 18:51:58.472 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 18:51:58.472 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 1
+[DEBUG] 2025-11-23 18:51:58.472 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 1;
+[INFO ] 2025-11-23 18:51:58.475 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=1, Zone=4, Weight=50.0, Status=Pending
+[INFO ] 2025-11-23 18:51:58.475 [AWT-EventQueue-0] CreateAssignment - Shipment 1 is PENDING. Loading vehicles for zone 4 and weight 50.0
+[DEBUG] 2025-11-23 18:51:58.475 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 4 and min weight 50.0
+[DEBUG] 2025-11-23 18:51:58.475 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 50.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 4)GROUP BY v.plateNumber
+[DEBUG] 2025-11-23 18:52:03.103 [AWT-EventQueue-0] CreateAssignment - Check Vehicle button clicked.
+[DEBUG] 2025-11-23 18:52:03.105 [AWT-EventQueue-0] CreateAssignment - Starting vehicleCheck().
+[INFO ] 2025-11-23 18:52:03.105 [AWT-EventQueue-0] CreateAssignment - Checking driver assignment for vehicle: ABC2004
+[DEBUG] 2025-11-23 18:52:03.105 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 18:52:03.106 [AWT-EventQueue-0] CreateAssignment - No active driver found for vehicle: ABC2004
+[INFO ] 2025-11-23 18:52:03.107 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 has no active driver assignment. Loading available drivers.
+[DEBUG] 2025-11-23 18:52:03.110 [AWT-EventQueue-0] CreateAssignment - Loading available drivers.
+[DEBUG] 2025-11-23 18:52:03.110 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadDrivers: SELECT d.driverID FROM smartship.driver d LEFT JOIN smartship.assignment a ON d.driverID = a.driverID      AND a.endDate IS NULL WHERE a.assignmentID IS NULL;
+[DEBUG] 2025-11-23 18:52:03.842 [AWT-EventQueue-0] CreateAssignment - Check Vehicle button clicked.
+[DEBUG] 2025-11-23 18:52:03.842 [AWT-EventQueue-0] CreateAssignment - Starting vehicleCheck().
+[INFO ] 2025-11-23 18:52:03.842 [AWT-EventQueue-0] CreateAssignment - Checking driver assignment for vehicle: ABC2004
+[DEBUG] 2025-11-23 18:52:03.842 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 18:52:03.844 [AWT-EventQueue-0] CreateAssignment - No active driver found for vehicle: ABC2004
+[INFO ] 2025-11-23 18:52:03.845 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 has no active driver assignment. Loading available drivers.
+[DEBUG] 2025-11-23 18:52:03.847 [AWT-EventQueue-0] CreateAssignment - Loading available drivers.
+[DEBUG] 2025-11-23 18:52:03.847 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadDrivers: SELECT d.driverID FROM smartship.driver d LEFT JOIN smartship.assignment a ON d.driverID = a.driverID      AND a.endDate IS NULL WHERE a.assignmentID IS NULL;
+[INFO ] 2025-11-23 18:52:09.272 [AWT-EventQueue-0] CreateAssignment - Submit button clicked. Starting assignment creation process.
+[DEBUG] 2025-11-23 18:52:09.272 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 1;
+[INFO ] 2025-11-23 18:52:09.273 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=1, Zone=4, Weight=50.0, Status=Pending
+[DEBUG] 2025-11-23 18:52:09.273 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 18:52:09.274 [AWT-EventQueue-0] CreateAssignment - No active driver found for vehicle: ABC2004
+[INFO ] 2025-11-23 18:52:09.274 [AWT-EventQueue-0] CreateAssignment - Selected new driver ID: 13
+[INFO ] 2025-11-23 18:52:09.274 [AWT-EventQueue-0] CreateAssignment - Attempting to create assignment: Plate=ABC2004, TrackingNum=1, DriverID=13
+[INFO ] 2025-11-23 18:52:09.274 [AWT-EventQueue-0] CreateAssignment - Attempting concurrency-safe assignment for TrackingNum: 1
+[WARN ] 2025-11-23 18:52:09.281 [AWT-EventQueue-0] CreateAssignment - Assignment blocked: Shipment 1 invoice status is 'Partially Paid'. Must be 'Paid'.
+[ERROR] 2025-11-23 18:52:13.075 [AWT-EventQueue-0] CreateAssignment - Assignment creation failed for shipment 1
+[INFO ] 2025-11-23 18:52:20.369 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 18:52:29.688 [AWT-EventQueue-0] CreateAssignment - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 18:52:30.381 [AWT-EventQueue-0] ProcessInvoice - Attempting to establish database connection.
+[INFO ] 2025-11-23 18:52:30.389 [AWT-EventQueue-0] ProcessInvoice - Database connection successfully established.
+[DEBUG] 2025-11-23 18:52:30.393 [AWT-EventQueue-0] ProcessInvoice - Loading unpaid/partially paid Invoice IDs.
+[INFO ] 2025-11-23 18:52:30.396 [AWT-EventQueue-0] ProcessInvoice - Loaded eligible Invoice IDs into dropdown.
+[DEBUG] 2025-11-23 18:52:33.719 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 1
+[INFO ] 2025-11-23 18:52:33.720 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 1
+[INFO ] 2025-11-23 18:52:33.758 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 details loaded. Current Balance: $390000.00
+[DEBUG] 2025-11-23 18:53:00.927 [AWT-EventQueue-0] ProcessInvoice - Submit & Assign button clicked.
+[INFO ] 2025-11-23 18:53:00.930 [AWT-EventQueue-0] ProcessInvoice - Processing payment of $390000.0 for Invoice ID 1 before creating assignment.
+[INFO ] 2025-11-23 18:53:00.940 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 status updated.
+[INFO ] 2025-11-23 18:53:00.941 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 fully paid (exact amount).
+[INFO ] 2025-11-23 18:53:07.860 [AWT-EventQueue-0] ProcessInvoice - Invoice 1 fully paid. Proceeding to CreateAssignment screen.
+[INFO ] 2025-11-23 18:53:09.494 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[DEBUG] 2025-11-23 18:53:17.377 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 18:53:17.378 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 1
+[DEBUG] 2025-11-23 18:53:17.378 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 1;
+[INFO ] 2025-11-23 18:53:17.379 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=1, Zone=4, Weight=50.0, Status=Pending
+[INFO ] 2025-11-23 18:53:17.379 [AWT-EventQueue-0] CreateAssignment - Shipment 1 is PENDING. Loading vehicles for zone 4 and weight 50.0
+[DEBUG] 2025-11-23 18:53:17.380 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 4 and min weight 50.0
+[DEBUG] 2025-11-23 18:53:17.380 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 50.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 4)GROUP BY v.plateNumber
+[DEBUG] 2025-11-23 18:53:23.223 [AWT-EventQueue-0] CreateAssignment - Check Vehicle button clicked.
+[DEBUG] 2025-11-23 18:53:23.223 [AWT-EventQueue-0] CreateAssignment - Starting vehicleCheck().
+[INFO ] 2025-11-23 18:53:23.224 [AWT-EventQueue-0] CreateAssignment - Checking driver assignment for vehicle: ABC2004
+[DEBUG] 2025-11-23 18:53:23.224 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 18:53:23.226 [AWT-EventQueue-0] CreateAssignment - No active driver found for vehicle: ABC2004
+[INFO ] 2025-11-23 18:53:23.226 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 has no active driver assignment. Loading available drivers.
+[DEBUG] 2025-11-23 18:53:23.230 [AWT-EventQueue-0] CreateAssignment - Loading available drivers.
+[DEBUG] 2025-11-23 18:53:23.230 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadDrivers: SELECT d.driverID FROM smartship.driver d LEFT JOIN smartship.assignment a ON d.driverID = a.driverID      AND a.endDate IS NULL WHERE a.assignmentID IS NULL;
+[INFO ] 2025-11-23 18:53:26.783 [AWT-EventQueue-0] CreateAssignment - Submit button clicked. Starting assignment creation process.
+[DEBUG] 2025-11-23 18:53:26.785 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 1;
+[INFO ] 2025-11-23 18:53:26.787 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=1, Zone=4, Weight=50.0, Status=Pending
+[DEBUG] 2025-11-23 18:53:26.787 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 18:53:26.789 [AWT-EventQueue-0] CreateAssignment - No active driver found for vehicle: ABC2004
+[INFO ] 2025-11-23 18:53:26.789 [AWT-EventQueue-0] CreateAssignment - Selected new driver ID: 13
+[INFO ] 2025-11-23 18:53:26.789 [AWT-EventQueue-0] CreateAssignment - Attempting to create assignment: Plate=ABC2004, TrackingNum=1, DriverID=13
+[INFO ] 2025-11-23 18:53:26.789 [AWT-EventQueue-0] CreateAssignment - Attempting concurrency-safe assignment for TrackingNum: 1
+[INFO ] 2025-11-23 18:53:26.802 [AWT-EventQueue-0] CreateAssignment - Transaction committed. Assignment created for TrackingNum: 1
+[INFO ] 2025-11-23 18:53:26.803 [AWT-EventQueue-0] CreateAssignment - Assignment created successfully for shipment 1
+[INFO ] 2025-11-23 18:55:41.090 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 18:55:42.648 [AWT-EventQueue-0] CreateAssignment - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:00:45.259 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:00:46.821 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 19:00:46.824 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 19:00:46.831 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 19:00:53.704 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 19:00:53.704 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 19:00:53.705 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 19:00:53.755 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 19:00:53.758 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 19:00:53.758 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:00:56.131 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:00:57.337 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 19:00:57.343 [AWT-EventQueue-0] CreateAssignment - Database connection successfully established.
+[INFO ] 2025-11-23 19:01:03.606 [AWT-EventQueue-0] CreateAssignment - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:01:04.321 [AWT-EventQueue-0] ProcessInvoice - Attempting to establish database connection.
+[INFO ] 2025-11-23 19:01:04.325 [AWT-EventQueue-0] ProcessInvoice - Database connection successfully established.
+[DEBUG] 2025-11-23 19:01:04.328 [AWT-EventQueue-0] ProcessInvoice - Loading unpaid/partially paid Invoice IDs.
+[INFO ] 2025-11-23 19:01:04.332 [AWT-EventQueue-0] ProcessInvoice - Loaded eligible Invoice IDs into dropdown.
+[DEBUG] 2025-11-23 19:01:06.025 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 2
+[INFO ] 2025-11-23 19:01:06.025 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 2
+[INFO ] 2025-11-23 19:01:06.055 [AWT-EventQueue-0] ProcessInvoice - Invoice 2 details loaded. Current Balance: $19350.00
+[DEBUG] 2025-11-23 19:01:26.023 [AWT-EventQueue-0] ProcessInvoice - Submit & Assign button clicked.
+[INFO ] 2025-11-23 19:01:26.023 [AWT-EventQueue-0] ProcessInvoice - Processing payment of $19350.0 for Invoice ID 2 before creating assignment.
+[INFO ] 2025-11-23 19:01:26.029 [AWT-EventQueue-0] ProcessInvoice - Invoice 2 status updated.
+[INFO ] 2025-11-23 19:01:26.029 [AWT-EventQueue-0] ProcessInvoice - Invoice 2 fully paid (exact amount).
+[INFO ] 2025-11-23 19:01:27.392 [AWT-EventQueue-0] ProcessInvoice - Invoice 2 fully paid. Proceeding to CreateAssignment screen.
+[INFO ] 2025-11-23 19:01:28.545 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[DEBUG] 2025-11-23 19:01:34.848 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 19:01:34.848 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 2
+[DEBUG] 2025-11-23 19:01:34.849 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 2;
+[INFO ] 2025-11-23 19:01:34.851 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=2, Zone=1, Weight=3.0, Status=Delivered
+[WARN ] 2025-11-23 19:01:34.852 [AWT-EventQueue-0] CreateAssignment - Shipment 2 status is 'Delivered'. Cannot be assigned.
+[DEBUG] 2025-11-23 19:02:48.975 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 19:02:48.976 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 3
+[DEBUG] 2025-11-23 19:02:48.976 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 3;
+[INFO ] 2025-11-23 19:02:48.978 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=3, Zone=1, Weight=1.0, Status=Pending
+[INFO ] 2025-11-23 19:02:48.979 [AWT-EventQueue-0] CreateAssignment - Shipment 3 is PENDING. Loading vehicles for zone 1 and weight 1.0
+[DEBUG] 2025-11-23 19:02:48.979 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 1 and min weight 1.0
+[DEBUG] 2025-11-23 19:02:48.981 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 1.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 1)GROUP BY v.plateNumber
+[DEBUG] 2025-11-23 19:03:20.490 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 19:03:20.491 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 3
+[DEBUG] 2025-11-23 19:03:20.491 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 3;
+[INFO ] 2025-11-23 19:03:20.493 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=3, Zone=1, Weight=1.0, Status=Pending
+[INFO ] 2025-11-23 19:03:20.493 [AWT-EventQueue-0] CreateAssignment - Shipment 3 is PENDING. Loading vehicles for zone 1 and weight 1.0
+[DEBUG] 2025-11-23 19:03:20.493 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 1 and min weight 1.0
+[DEBUG] 2025-11-23 19:03:20.493 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 1.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 1)GROUP BY v.plateNumber
+[INFO ] 2025-11-23 19:05:28.673 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:05:31.137 [AWT-EventQueue-0] Login - Database connection successfully established.
+[INFO ] 2025-11-23 19:05:36.327 [AWT-EventQueue-0] Login - Customer ID 1 password verified.
+[INFO ] 2025-11-23 19:05:40.286 [AWT-EventQueue-0] RequestShipment - Database connection successfully established.
+[INFO ] 2025-11-23 19:06:30.939 [AWT-EventQueue-0] RequestShipment - Shipment Request created. Affected rows: 2
+[INFO ] 2025-11-23 19:08:01.436 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:08:06.507 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 19:08:06.510 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 19:08:06.518 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 19:08:13.502 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 19:08:13.502 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 19:08:13.502 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 19:08:13.545 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 19:08:13.547 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 19:08:13.547 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:08:14.697 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:08:19.684 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 19:08:19.688 [AWT-EventQueue-0] CreateAssignment - Database connection successfully established.
+[INFO ] 2025-11-23 19:08:24.369 [AWT-EventQueue-0] CreateAssignment - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:11:45.793 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[DEBUG] 2025-11-23 19:11:52.816 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 19:11:52.817 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 5002
+[DEBUG] 2025-11-23 19:11:52.817 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 5002;
+[INFO ] 2025-11-23 19:11:52.820 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=5002, Zone=4, Weight=6.0, Status=Pending
+[INFO ] 2025-11-23 19:11:52.820 [AWT-EventQueue-0] CreateAssignment - Shipment 5002 is PENDING. Loading vehicles for zone 4 and weight 6.0
+[DEBUG] 2025-11-23 19:11:52.820 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 4 and min weight 6.0
+[DEBUG] 2025-11-23 19:11:52.822 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 6.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 4)GROUP BY v.plateNumber
+[INFO ] 2025-11-23 19:12:02.840 [AWT-EventQueue-0] CreateAssignment - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:12:03.764 [AWT-EventQueue-0] ProcessInvoice - Attempting to establish database connection.
+[INFO ] 2025-11-23 19:12:03.770 [AWT-EventQueue-0] ProcessInvoice - Database connection successfully established.
+[DEBUG] 2025-11-23 19:12:03.772 [AWT-EventQueue-0] ProcessInvoice - Loading unpaid/partially paid Invoice IDs.
+[INFO ] 2025-11-23 19:12:03.774 [AWT-EventQueue-0] ProcessInvoice - Loaded eligible Invoice IDs into dropdown.
+[DEBUG] 2025-11-23 19:12:20.551 [AWT-EventQueue-0] ProcessInvoice - Retrieve Invoice button clicked. Selected ID: 5
+[INFO ] 2025-11-23 19:12:20.551 [AWT-EventQueue-0] ProcessInvoice - Retrieving details for Invoice ID: 5
+[INFO ] 2025-11-23 19:12:20.584 [AWT-EventQueue-0] ProcessInvoice - Invoice 5 details loaded. Current Balance: $266850.00
+[INFO ] 2025-11-23 19:12:39.313 [AWT-EventQueue-0] ProcessInvoice - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:12:40.210 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[DEBUG] 2025-11-23 19:14:00.696 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 19:14:00.697 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 5002
+[DEBUG] 2025-11-23 19:14:00.697 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 5002;
+[INFO ] 2025-11-23 19:14:00.699 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=5002, Zone=4, Weight=6.0, Status=Pending
+[INFO ] 2025-11-23 19:14:00.699 [AWT-EventQueue-0] CreateAssignment - Shipment 5002 is PENDING. Loading vehicles for zone 4 and weight 6.0
+[DEBUG] 2025-11-23 19:14:00.699 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 4 and min weight 6.0
+[DEBUG] 2025-11-23 19:14:00.699 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 6.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 4)GROUP BY v.plateNumber
+[DEBUG] 2025-11-23 19:14:07.081 [AWT-EventQueue-0] CreateAssignment - Check Vehicle button clicked.
+[DEBUG] 2025-11-23 19:14:07.081 [AWT-EventQueue-0] CreateAssignment - Starting vehicleCheck().
+[INFO ] 2025-11-23 19:14:07.081 [AWT-EventQueue-0] CreateAssignment - Checking driver assignment for vehicle: ABC2004
+[DEBUG] 2025-11-23 19:14:07.082 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 19:14:07.084 [AWT-EventQueue-0] CreateAssignment - Active driver found for vehicle ABC2004: 13
+[INFO ] 2025-11-23 19:14:07.084 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 is actively assigned to driver ID: 13
+[INFO ] 2025-11-23 19:14:09.616 [AWT-EventQueue-0] CreateAssignment - Submit button clicked. Starting assignment creation process.
+[DEBUG] 2025-11-23 19:14:09.616 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 5002;
+[INFO ] 2025-11-23 19:14:09.617 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=5002, Zone=4, Weight=6.0, Status=Pending
+[DEBUG] 2025-11-23 19:14:09.618 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 19:14:09.618 [AWT-EventQueue-0] CreateAssignment - Active driver found for vehicle ABC2004: 13
+[INFO ] 2025-11-23 19:14:09.619 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 already has an active driver: 13
+[INFO ] 2025-11-23 19:14:09.619 [AWT-EventQueue-0] CreateAssignment - Attempting to create assignment: Plate=ABC2004, TrackingNum=5002, DriverID=13
+[INFO ] 2025-11-23 19:14:09.619 [AWT-EventQueue-0] CreateAssignment - Attempting concurrency-safe assignment for TrackingNum: 5002
+[WARN ] 2025-11-23 19:14:09.621 [AWT-EventQueue-0] CreateAssignment - Assignment blocked: Shipment 5002 invoice status is 'Unpaid'. Must be 'Paid'.
+[ERROR] 2025-11-23 19:14:11.454 [AWT-EventQueue-0] CreateAssignment - Assignment creation failed for shipment 5002
+[INFO ] 2025-11-23 19:14:14.707 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 19:14:16.200 [AWT-EventQueue-0] CreateAssignment - Back button clicked. Returning to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:16:34.529 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:16:37.220 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 19:16:37.221 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 19:16:37.225 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 19:16:46.868 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 19:16:46.868 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 19:16:46.869 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 19:16:46.915 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 19:16:46.916 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 19:16:46.917 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:16:48.023 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:16:49.679 [AWT-EventQueue-0] CreateAssignment - Initializing CreateAssignment for User ID: 6
+[INFO ] 2025-11-23 19:16:49.684 [AWT-EventQueue-0] CreateAssignment - Database connection successfully established.
+[DEBUG] 2025-11-23 19:16:53.525 [AWT-EventQueue-0] CreateAssignment - Check Package button clicked.
+[INFO ] 2025-11-23 19:16:53.525 [AWT-EventQueue-0] CreateAssignment - Attempting to retrieve shipment for tracking number: 5002
+[DEBUG] 2025-11-23 19:16:53.526 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 5002;
+[INFO ] 2025-11-23 19:16:53.529 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=5002, Zone=4, Weight=6.0, Status=Pending
+[INFO ] 2025-11-23 19:16:53.529 [AWT-EventQueue-0] CreateAssignment - Shipment 5002 is PENDING. Loading vehicles for zone 4 and weight 6.0
+[DEBUG] 2025-11-23 19:16:53.529 [AWT-EventQueue-0] CreateAssignment - Loading vehicles for Zone 4 and min weight 6.0
+[DEBUG] 2025-11-23 19:16:53.531 [AWT-EventQueue-0] CreateAssignment - Executing SQL for loadVehicles: SELECT v.plateNumber FROM smartship.vehicle v LEFT JOIN smartship.assignment a ON v.plateNumber = a.plateNumber AND a.endDate IS NULL LEFT JOIN smartship.shipment s ON a.trackingNumber = s.trackingNumber WHERE v.status = 'inactive' AND v.availableWeight >= 6.0 AND v.availableQuantity > 0 AND (s.zone IS NULL OR s.zone = 4)GROUP BY v.plateNumber
+[DEBUG] 2025-11-23 19:16:57.169 [AWT-EventQueue-0] CreateAssignment - Check Vehicle button clicked.
+[DEBUG] 2025-11-23 19:16:57.169 [AWT-EventQueue-0] CreateAssignment - Starting vehicleCheck().
+[INFO ] 2025-11-23 19:16:57.169 [AWT-EventQueue-0] CreateAssignment - Checking driver assignment for vehicle: ABC2004
+[DEBUG] 2025-11-23 19:16:57.170 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 19:16:57.171 [AWT-EventQueue-0] CreateAssignment - Active driver found for vehicle ABC2004: 13
+[INFO ] 2025-11-23 19:16:57.171 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 is actively assigned to driver ID: 13
+[INFO ] 2025-11-23 19:17:00.064 [AWT-EventQueue-0] CreateAssignment - Submit button clicked. Starting assignment creation process.
+[DEBUG] 2025-11-23 19:17:00.065 [AWT-EventQueue-0] CreateAssignment - Executing SQL for getShipment: SELECT trackingNumber, zone, weight, status FROM smartship.shipment WHERE trackingNumber = 5002;
+[INFO ] 2025-11-23 19:17:00.067 [AWT-EventQueue-0] CreateAssignment - Shipment found: TrackingNum=5002, Zone=4, Weight=6.0, Status=Pending
+[DEBUG] 2025-11-23 19:17:00.068 [AWT-EventQueue-0] CreateAssignment - Executing SQL for checkVehicleDriver: SELECT a.driverID FROM smartship.assignment a WHERE a.plateNumber = 'ABC2004' AND a.endDate IS NULL;
+[DEBUG] 2025-11-23 19:17:00.070 [AWT-EventQueue-0] CreateAssignment - Active driver found for vehicle ABC2004: 13
+[INFO ] 2025-11-23 19:17:00.070 [AWT-EventQueue-0] CreateAssignment - Vehicle ABC2004 already has an active driver: 13
+[INFO ] 2025-11-23 19:17:00.071 [AWT-EventQueue-0] CreateAssignment - Attempting to create assignment: Plate=ABC2004, TrackingNum=5002, DriverID=13
+[INFO ] 2025-11-23 19:17:00.071 [AWT-EventQueue-0] CreateAssignment - Attempting concurrency-safe assignment for TrackingNum: 5002
+[WARN ] 2025-11-23 19:17:00.075 [AWT-EventQueue-0] CreateAssignment - Assignment blocked: Shipment 5002 invoice status is 'Unpaid'. Must be 'Paid'.
+[ERROR] 2025-11-23 19:17:01.990 [AWT-EventQueue-0] CreateAssignment - Assignment creation failed for shipment 5002
+[INFO ] 2025-11-23 19:54:50.840 [AWT-EventQueue-0] MainMenu - Database connection successfully established.
+[INFO ] 2025-11-23 19:54:54.822 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 19:55:03.337 [AWT-EventQueue-0] ManagerFrame - Manager Login Successful for ID: 7
+[INFO ] 2025-11-23 19:55:04.379 [AWT-EventQueue-0] ManagerFrame - Database connection successfully established.
+[INFO ] 2025-11-23 19:55:13.662 [AWT-EventQueue-0] ReportPg - Database connection successfully established.
+[INFO ] 2025-11-23 19:59:31.525 [AWT-EventQueue-0] Login - Initializing Clerk Login GUI.
+[INFO ] 2025-11-23 19:59:31.528 [AWT-EventQueue-0] Login - Attempting to connect to database at: jdbc:mysql://localhost:3307/smartship
+[INFO ] 2025-11-23 19:59:31.534 [AWT-EventQueue-0] Login - Database connection successfully established.
+[DEBUG] 2025-11-23 19:59:37.212 [AWT-EventQueue-0] Login - Login button clicked.
+[INFO ] 2025-11-23 19:59:37.213 [AWT-EventQueue-0] Login - Attempting login for Clerk ID: 6
+[DEBUG] 2025-11-23 19:59:37.213 [AWT-EventQueue-0] Login - Executing SQL for checkLogin: SELECT u.userID, u.firstName, u.lastName, u.hashedPassword, cl.salary, cl.yearEmployed FROM smartship.user u INNER JOIN smartship.clerk cl ON u.userID = cl.clerkID WHERE u.userID = 6;
+[DEBUG] 2025-11-23 19:59:37.215 [AWT-EventQueue-0] Login - Clerk data retrieved for ID: 6
+[INFO ] 2025-11-23 19:59:37.216 [AWT-EventQueue-0] Login - Clerk ID 6 password verified.
+[INFO ] 2025-11-23 19:59:37.216 [AWT-EventQueue-0] Login - Login successful for Clerk ID: 6. Navigating to ProcessShipmentMenu.
+[INFO ] 2025-11-23 19:59:37.914 [AWT-EventQueue-0] ProcessShipmentMenu - Database connection successfully established.
