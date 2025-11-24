@@ -50,7 +50,5 @@ public class Clerk extends User {
 		+ "\nYear Employed: " + yearEmployed + "\n";
 	}
 	
-	 
-	
 	
 }

@@ -48,13 +48,5 @@ public class Customer extends User {
 		return "Customer's Info \nCustomer ID:" + userID + "\nFirst Name: " + firstName
 				+ "\nLast Name: " + lastName +  "\nAddress: " + address + "\nPhone: " + phone + "\n";
 	}
-	
-	public void createAccount() {
-		
-	}
-	
-	public void requestShipment() {
-		
-	}
-	
+
 }
